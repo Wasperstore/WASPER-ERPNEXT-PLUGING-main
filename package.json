@@ -1,0 +1,14 @@
+{
+  "name": "wasper_inventory",
+  "version": "0.0.1",
+  "description": "Inventory Management Solution for Multi-Branch Operations",
+  "scripts": {
+    "build": "node esbuild --production --apps wasper_inventory --run-build-command"
+  },
+  "dependencies": {
+    "frappe": "1.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.0"
+  }
+} 

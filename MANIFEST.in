@@ -1,0 +1,12 @@
+include README.md
+include requirements.txt
+include LICENSE
+include yarn.lock
+include package.json
+include pyproject.toml
+
+recursive-include wasper_inventory/public *
+recursive-include wasper_inventory/templates *
+recursive-include wasper_inventory/www *
+recursive-include wasper_inventory/config *
+recursive-include wasper_inventory/api * 

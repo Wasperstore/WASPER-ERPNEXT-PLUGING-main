@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wasper_inventory"
+version = "0.0.1"
+description = "Inventory Management Solution for Multi-Branch Operations"
+requires-python = ">=3.11"
+dependencies = [
+    "frappe>=15.0.0",
+    "erpnext>=15.0.0"
+]
+
+[tool.setuptools]
+packages = ["wasper_inventory"] 
