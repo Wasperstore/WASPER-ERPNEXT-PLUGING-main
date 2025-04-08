@@ -1,0 +1,3 @@
+# Patches for Wasper Inventory
+# Format: <patch_name>:<description>
+# Example: update_branch_settings:Update branch settings for new features 
